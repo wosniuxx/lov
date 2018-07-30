@@ -1,0 +1,16 @@
+spring:
+  profiles: test
+  application:
+    name: lov
+  jersey:
+    application-path: v1
+
+server:
+  port: 8081
+
+mysql:
+  mhw:
+    userName: root
+    passWord: 123456
+    decrypt: false
+    masterUrl: jdbc:mysql://127.0.0.1:3306/lovingu?useUnicode=true&characterEncoding=utf8&autoReconnect=true&failOverReadOnly=false&useSSL=false
